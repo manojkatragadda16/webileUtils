@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UtilsFramework"
-  s.version      = "0.1.1"
+  s.version      = "0.1.3"
   s.summary      = "Common Utility framework (WIP)"
 
   # This description is used to generate tags and improve search results.
@@ -135,5 +135,5 @@ Common Utility framework (WIP)
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-
+    s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.3' }
 end

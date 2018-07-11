@@ -11,8 +11,8 @@ import UIKit
 public class CountryCode: NSObject {
     
     @objc public class func setDefaultCountryCode(_ code: String, Object:NSObject)  {
-        if(Object.responds(to: #selector(setDefaultCountryCode))) {
-            Object.perform(#selector(setDefaultCountryCode), with: code);
+        if(Object .responds(to: NSSelectorFromString("setDefaultCountryCode:"))) {
+            Object.perform(NSSelectorFromString("setDefaultCountryCode:"), with: code);
         }
     }
 }

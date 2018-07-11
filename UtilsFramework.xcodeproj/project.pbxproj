@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		AF05AB8E20F5F3B100A850AC /* UtilsFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = AF05AB8C20F5F3B100A850AC /* UtilsFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF05AB9520F5F3F400A850AC /* CountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF05AB9420F5F3F400A850AC /* CountryCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF05AB8920F5F3B100A850AC /* UtilsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UtilsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF05AB8C20F5F3B100A850AC /* UtilsFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsFramework.h; sourceTree = "<group>"; };
 		AF05AB8D20F5F3B100A850AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF05AB9420F5F3F400A850AC /* CountryCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				AF05AB8C20F5F3B100A850AC /* UtilsFramework.h */,
+				AF05AB9420F5F3F400A850AC /* CountryCode.swift */,
 				AF05AB8D20F5F3B100A850AC /* Info.plist */,
 			);
 			path = UtilsFramework;
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					AF05AB8820F5F3B100A850AC = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF05AB9520F5F3F400A850AC /* CountryCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +264,7 @@
 		AF05AB9220F5F3B100A850AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -276,6 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.webileapps.UtilsFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +291,7 @@
 		AF05AB9320F5F3B100A850AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;

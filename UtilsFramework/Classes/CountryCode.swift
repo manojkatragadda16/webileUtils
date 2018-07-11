@@ -10,9 +10,9 @@ import UIKit
 
 public class CountryCode: NSObject {
     
-    @objc class func setDefaultCountryCode(countrycode: String, and object:NSObject)  {
-        if(object.responds(to: #selector(setDefaultCountryCode))) {
-            object.perform(#selector(setDefaultCountryCode), with: countrycode);
+    @objc class func setDefaultCountryCode(_ code: String, Object:NSObject)  {
+        if(Object.responds(to: #selector(setDefaultCountryCode))) {
+            Object.perform(#selector(setDefaultCountryCode), with: code);
         }
     }
 }

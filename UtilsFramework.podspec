@@ -40,8 +40,8 @@ Common Utility framework (WIP)
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,8 +92,8 @@ Common Utility framework (WIP)
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "**/*.swift"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "Classes"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 

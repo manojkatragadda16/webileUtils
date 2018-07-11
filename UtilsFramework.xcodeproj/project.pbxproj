@@ -48,11 +48,19 @@
 		AF05AB8B20F5F3B100A850AC /* UtilsFramework */ = {
 			isa = PBXGroup;
 			children = (
+				AF05AB9620F6097600A850AC /* Classes */,
 				AF05AB8C20F5F3B100A850AC /* UtilsFramework.h */,
-				AF05AB9420F5F3F400A850AC /* CountryCode.swift */,
 				AF05AB8D20F5F3B100A850AC /* Info.plist */,
 			);
 			path = UtilsFramework;
+			sourceTree = "<group>";
+		};
+		AF05AB9620F6097600A850AC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AF05AB9420F5F3F400A850AC /* CountryCode.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
